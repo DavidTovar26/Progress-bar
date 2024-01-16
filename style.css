@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+
+.progressBar{
+    position: fixed;
+    width: 100%;
+    height: 10px; 
+}
+.progress{
+    width: 0%;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.abc{
+    width: 50%;
+    font-size: 1.1em;
+}
+
+img{
+    margin: 50px 0px;
+    width: 30%;
+}
